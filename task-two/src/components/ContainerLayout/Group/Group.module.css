@@ -1,0 +1,192 @@
+.group {
+  /* Group 37318 */
+
+  /* background-color: turquoise; */
+
+  position: absolute;
+  width: 1100px;
+  height: 504px;
+  left: 0px;
+  top: 400px;
+  z-index: 1;
+}
+
+.content {
+  /* Content */
+
+  position: absolute;
+  display: flex;
+  width: 700px;
+  height: 704px;
+  left: 600px;
+  top: 273px;
+  /* background-color: cadetblue; */
+}
+
+.fb_tw_group {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  height: 704px;
+}
+
+.google_card {
+  /* Card Integrations */
+
+  position: relative;
+  top: 200px;
+  border-radius: 10px;
+}
+
+.fb {
+  position: relative;
+  top: 10px;
+}
+
+.tw {
+  position: relative;
+  top: 10px;
+}
+
+/* Left Container */
+
+.title {
+  /* Title */
+
+  position: absolute;
+  width: 382px;
+  height: 292px;
+  left: 10px;
+  /* top: 442px; */
+}
+
+.frame {
+  /* Frame 37616 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+
+  position: absolute;
+  width: 382px;
+  height: 292px;
+  left: 170px;
+  top: 442px;
+}
+
+.frame_01 {
+  /* Frame 37615 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 382px;
+  height: 190px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.button {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 4px;
+
+  width: 151px;
+  height: 54px;
+
+  /* Gradient/Gradient purple */
+  background: linear-gradient(112.8deg, #6a36ff -15.76%, #ac5fe6 102.86%);
+  border-radius: 10px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.heading {
+  /* Integrated with Social Media */
+
+  width: 335px;
+  height: 100px;
+
+  /* Heading Desktop/H2 */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 105%;
+  /* or 50px */
+  letter-spacing: 0em;
+
+  /* Neutral/White */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.text {
+  /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ut id nisl tellus rhoncus, imperdiet consequat ornare. */
+
+  width: 382px;
+  height: 66px;
+
+  /* Body/Medium/Regular */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  /* Neutral/Light Grey */
+  color: #cdd0d8;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.buttonText {
+  /* More integration */
+
+  width: 87px;
+  height: 22px;
+
+  /* Body/Medium/Bold */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  /* Neutral/White */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
