@@ -8,49 +8,47 @@
 }
 
 .rectangle_38 {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  /* background-color: brown; */
   position: absolute;
-  left: 19.11%;
-  right: 44.82%;
-  top: 88.19%;
-  bottom: -0.21%;
-  z-index: 1;
-  rotate: -7deg;
-  background: linear-gradient(
-    277.47deg,
-    rgba(0, 151, 254, 0) 8.72%,
-    rgba(0, 151, 254, 0.86) 91.5%
-  );
-  transform: rotate(2.05deg);
+  rotate: -15deg;
+  z-index: 2;
+  left: 8%;
+  right: -20.78%;
+  top: 4.18%;
+  bottom: 67.62%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .rectangle_09 {
   /* Rectangle 9 */
 
+  /* Rectangle 9 */
+
   position: absolute;
-  left: 101%;
-  right: -22.31%;
-  rotate: -10deg;
-  z-index: 2;
+  left: 107.62%;
+  right: -24%;
   top: 9.68%;
-  bottom: 80.3%;
+  bottom: 83.3%;
+  rotate: -7deg;
+  z-index: 1;
   background: linear-gradient(
     277.47deg,
     rgba(0, 151, 254, 0) 8.72%,
-    rgba(0, 151, 254, 0.86) 92.5%
+    rgba(0, 151, 254, 0.86) 95.5%
   );
 }
 
 .rectangle_08 {
-  /* Rectangle 8 */
-
   position: absolute;
-  left: 0.11%;
-  right: 60.82%;
-  top: 92.19%;
-  bottom: -0.21%;
+  left: 19.11%;
+  right: 50.82%;
+  top: 86.19%;
+  bottom: -3.21%;
   z-index: 1;
-  rotate: -10deg;
-
+  rotate: -8deg;
   background: linear-gradient(
     277.47deg,
     rgba(0, 151, 254, 0) 8.72%,
