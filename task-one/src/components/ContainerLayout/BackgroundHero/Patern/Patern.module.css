@@ -1,0 +1,74 @@
+.patern {
+  /* background-color: rgb(166, 221, 184); */
+  position: absolute;
+  left: -18.24%;
+  right: 21.31%;
+  top: 9.18%;
+  bottom: -1.53%;
+}
+
+.rectangle_38 {
+  position: absolute;
+  left: 19.11%;
+  right: 44.82%;
+  top: 88.19%;
+  bottom: -0.21%;
+  z-index: 1;
+  rotate: -7deg;
+  background: linear-gradient(
+    277.47deg,
+    rgba(0, 151, 254, 0) 8.72%,
+    rgba(0, 151, 254, 0.86) 91.5%
+  );
+  transform: rotate(2.05deg);
+}
+
+.rectangle_09 {
+  /* Rectangle 9 */
+
+  position: absolute;
+  left: 101%;
+  right: -22.31%;
+  rotate: -10deg;
+  z-index: 2;
+  top: 9.68%;
+  bottom: 80.3%;
+  background: linear-gradient(
+    277.47deg,
+    rgba(0, 151, 254, 0) 8.72%,
+    rgba(0, 151, 254, 0.86) 92.5%
+  );
+}
+
+.rectangle_08 {
+  /* Rectangle 8 */
+
+  position: absolute;
+  left: 0.11%;
+  right: 60.82%;
+  top: 92.19%;
+  bottom: -0.21%;
+  z-index: 1;
+  rotate: -10deg;
+
+  background: linear-gradient(
+    277.47deg,
+    rgba(0, 151, 254, 0) 8.72%,
+    rgba(0, 151, 254, 0.86) 91.5%
+  );
+  transform: rotate(2.05deg);
+}
+
+.rectangle_10 {
+  position: absolute;
+  left: 72.11%;
+  right: -22.36%;
+  top: 15.51%;
+  bottom: 36.85%;
+  z-index: 1;
+  background: linear-gradient(
+    277.47deg,
+    rgba(0, 151, 254, 0.08) 8.72%,
+    rgba(0, 151, 254, 0.04) 91.5%
+  );
+}

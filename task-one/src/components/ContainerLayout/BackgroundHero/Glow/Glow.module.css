@@ -1,0 +1,43 @@
+.glow {
+  position: absolute;
+  left: -4.52%;
+  right: 17.14%;
+  top: -25.81%;
+  bottom: 51.24%;
+}
+
+.rectangle_34 {
+  /* Rectangle 34 */
+
+  position: absolute;
+  left: -4.52%;
+  right: 51.06%;
+  top: -10.55%;
+  bottom: -2.76%;
+  z-index: 1;
+
+  background: linear-gradient(
+    101.06deg,
+    rgba(5, 137, 240, 0.7) 7.54%,
+    rgba(5, 137, 240, 0.7) 72.97%
+  );
+  filter: blur(123px);
+}
+
+.rectangle_35 {
+  /* Rectangle 35 */
+
+  position: absolute;
+  left: 80.59%;
+  right: -19.86%;
+  top: 35.65%;
+  bottom: 2.89%;
+  z-index: 1;
+  background: linear-gradient(
+    109.87deg,
+    rgba(5, 137, 240, 0.6) -15.54%,
+    rgba(177, 78, 223, 0.6) 83.66%
+  );
+  filter: blur(67.5px);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}

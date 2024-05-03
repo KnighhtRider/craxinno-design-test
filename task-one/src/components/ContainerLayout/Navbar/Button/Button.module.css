@@ -1,0 +1,67 @@
+.button {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  position: absolute;
+  width: 164px;
+  height: 44px;
+  left: 1106px;
+  top: 21px;
+}
+
+.signIn {
+  /* Sign in */
+
+  width: 49px;
+  height: 22px;
+
+  /* Body/Medium/Regular */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+
+  /* Neutral/White */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.signUp {
+  /* Button */
+
+  box-sizing: border-box;
+  color: white;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 4px;
+
+  /* width: 99px;
+  height: 44px; */
+
+  /* Neutral/White */
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

@@ -1,0 +1,77 @@
+.action {
+  /* Action */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  width: 365px;
+  height: 138px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.privacyText {
+  /* By Clicking “Register” you agree Privacy Policy */
+
+  width: 345px;
+  height: 22px;
+
+  /* Body/Medium/Regular */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+
+  /* Neutral/White */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+a {
+  text-decoration: none;
+  color: skyblue;
+}
+
+.button {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  gap: 10px;
+
+  width: 365px;
+  height: 62px;
+
+  background: linear-gradient(112.8deg, #6a36ff -15.76%, #ac5fe6 102.86%);
+  border-radius: 10px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: white;
+}
+
+.alreadyText {
+  position: absolute;
+  top: 430px;
+  color: white;
+}

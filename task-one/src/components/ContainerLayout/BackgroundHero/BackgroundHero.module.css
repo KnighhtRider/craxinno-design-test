@@ -1,0 +1,19 @@
+.backgroundHero {
+  position: absolute;
+  width:  1440px;
+  height: 806px;
+  left: 0px;
+  top: 0px;
+  /* background-color: cadetblue; */
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+  /* transform: rotate(-10deg); */
+}
+
+
+
+

@@ -1,0 +1,94 @@
+.illustration {
+  /* Illustration */
+
+  position: absolute;
+  width: 445px;
+  height: 560px;
+  left: 170px;
+  top: 30px;
+}
+
+.frame {
+  /* Frame 40178 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+
+  position: absolute;
+  width: 365px;
+  height: 428px;
+  left: 40px;
+  top: 96px;
+}
+
+.createAcc {
+  /* Create Your Account */
+
+  width: 305px;
+  height: 34px;
+  /* z-index: 1; */
+
+  /* Heading Desktop/H3 */
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 105%;
+  /* identical to box height, or 34px */
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  /* Neutral/White */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.textureBG {
+  /* Texture BG */
+
+  position: absolute;
+  /* z-index: 1; */
+  width: 445px;
+  height: 560px;
+  left: 0px;
+  top: 30px;
+}
+
+.background {
+  /* Background */
+
+  position: absolute;
+  left: 0%;
+  right: 3.5%;
+  top: 4.84%;
+  bottom: 4.84%;
+}
+
+.rectangle_06 {
+  /* Rectangle 6 */
+
+  position: absolute;
+  width: 445px;
+  height: 560px;
+  right: 10;
+  top: 30px;
+  /* z-index: -1; */
+  z-index: -10;
+
+  background: linear-gradient(
+    112.32deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 101.12%
+  );
+  backdrop-filter: blur(39.5999px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+}

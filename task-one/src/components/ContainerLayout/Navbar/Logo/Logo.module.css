@@ -1,0 +1,22 @@
+.logo {
+  /* Logo */
+
+  position: absolute;
+  width: 222.02px;
+  height: 32.73px;
+  left: 170px;
+  top: 31px;
+  z-index: 1;
+}
+
+.s {
+  /* Vector */
+
+  position: absolute;
+  left: 26.76%;
+  right: 72.82%;
+  top: 63.76%;
+  bottom: 26.86%;
+
+  background: #ffffff;
+}
